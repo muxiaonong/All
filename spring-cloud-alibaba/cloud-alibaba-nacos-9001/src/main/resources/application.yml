@@ -5,7 +5,8 @@ spring:
     name: nacos-provider
   cloud:
     discovery:
-      server-addr: localhost:8848
+      server-addr: http://192.168.137.152:81
+#      server-addr: localhost:8848
 
 management:
   endpoint:
