@@ -8,20 +8,20 @@ import java.util.concurrent.TimeUnit;
 @RestController
 public class TestController {
 
-    @GetMapping("/testA")
-    public String testA() {
+    @GetMapping("/playA")
+    public String playA() {
         try {
             //阻塞1 秒
             TimeUnit.MILLISECONDS.sleep(1000);
         }catch (Exception e){
             e.printStackTrace();
         }
-        return "-----testA";
+        return "hello my name is playA ,wo shi boy";
     }
 
-    @GetMapping("/testB")
-    public String testB(){
-        return "-----testB";
+    @GetMapping("/playB")
+    public String playB(){
+        return "hi my name is playB me girl";
     }
 
 
