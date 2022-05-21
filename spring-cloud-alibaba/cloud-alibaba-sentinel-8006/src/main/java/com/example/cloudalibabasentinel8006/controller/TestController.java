@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.concurrent.TimeUnit;
 
 @RestController
-public class FlowLimitController {
+public class TestController {
 
     @GetMapping("/testA")
     public String testA() {
