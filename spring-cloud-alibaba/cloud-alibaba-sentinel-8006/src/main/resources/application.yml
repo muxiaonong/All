@@ -10,9 +10,9 @@ spring:
         server-addr: localhost:8848
     sentinel:
       transport:
-        # 配置Sentinel dashboard地址
+        #配置Sentinel地址，就是我们的WEB界面
         dashboard: localhost:8080
-        # 默认8719端口，键入被占用会自动从8719+1，直到找到未被占用的端口
+        #Sentinel配置默认8719端口，被占用端口会自动从+1，直到找到未被占用的端口
         port: 8719
 
 management:
