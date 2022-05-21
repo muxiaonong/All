@@ -12,6 +12,7 @@
     <artifactId>spring-cloud-alibaba</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-cloud-alibaba</name>
+    <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
@@ -49,6 +50,7 @@
          <module>cloud-alibaba-nacos-9002</module>
          <module>cloud-alibab-consumer-8083</module>
          <module>cloud-alibaba-config-3377</module>
+         <module>cloud-alibaba-sentinel-8006</module>
      </modules>
 
 </project>
