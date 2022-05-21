@@ -21,7 +21,7 @@ public class TestController {
 
     @GetMapping("/playB")
     public String playB(){
-        return "hi my name is playB me girl";
+        return "hi my name is playB, me is girl";
     }
 
 
