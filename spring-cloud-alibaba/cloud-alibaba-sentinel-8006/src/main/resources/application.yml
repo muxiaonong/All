@@ -14,6 +14,8 @@ spring:
         dashboard: localhost:8080
         #Sentinel配置默认8719端口，被占用端口会自动从+1，直到找到未被占用的端口
         port: 8719
+        # 配置为false
+      web-context-unify: false
 
 management:
   endpoints:
