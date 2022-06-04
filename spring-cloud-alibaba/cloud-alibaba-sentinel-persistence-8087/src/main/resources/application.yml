@@ -13,12 +13,12 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:8080
-#      datasource: # 配置Sentinel的持久化
-#        nacos:
-#          nacos:
-#            serverAddr: localhost:8848
-#            groupId: DEFAULT_GROUP
-#            dataId: order-sentinel.json
-#            ruleType: flow
+      datasource: # 配置Sentinel的持久化
+        nacos:
+          nacos:
+            serverAddr: localhost:8848
+            groupId: DEFAULT_GROUP
+            dataId: sentinel-persistence.json
+            ruleType: flow
   profiles:
     active: dev

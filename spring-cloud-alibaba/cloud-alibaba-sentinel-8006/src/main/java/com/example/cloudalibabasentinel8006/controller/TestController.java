@@ -86,7 +86,7 @@ public class TestController {
         return "系统繁忙，请稍后再试";
     }
 
-    @GetMapping("/--`++--+++-++")
+    @GetMapping("/restUrl")
     @SentinelResource(value = "restUrl")
     public String restUrl(){
         return " restUrl";
