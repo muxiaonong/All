@@ -2,6 +2,7 @@ package com.example.cloudalibabasentinel8006.controller;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
+import com.example.cloudalibabasentinel8006.controller.handler.SentinelExptioinHandler;
 import com.example.cloudalibabasentinel8006.service.TestService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -85,10 +86,23 @@ public class TestController {
         return "系统繁忙，请稍后再试";
     }
 
-    @GetMapping("/restUrl")
+    @GetMapping("/--`++--+++-++")
     @SentinelResource(value = "restUrl")
     public String restUrl(){
         return " restUrl";
+    }
+
+
+    /**
+     * 此方法用到了自定义限流处理类型CustomerBlockHandler
+     * 中的handlerException1方法来处理限流逻辑。
+     */
+    @GetMapping("/buildExption")
+    @SentinelResource(value = "buildExption",
+            blockHandlerClass = SentinelExptioinHandler.class,
+            blockHandler = "handlerMethodError")
+    public String buildExption(){
+        return "hello buildExption";
     }
 
 }

@@ -6,7 +6,6 @@
         <groupId>com.muxiaonong</groupId>
         <artifactId>spring-cloud-alibaba</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
     <artifactId>cloud-alibaba-sentinel-8006</artifactId>

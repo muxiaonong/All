@@ -1,0 +1,24 @@
+# 端口号
+server:
+  port: 8087
+# 服务名
+spring:
+  application:
+    name: sentinel-persistence
+  cloud:
+    nacos:
+      discovery:
+        # nacos注册中心地址
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+#      datasource: # 配置Sentinel的持久化
+#        nacos:
+#          nacos:
+#            serverAddr: localhost:8848
+#            groupId: DEFAULT_GROUP
+#            dataId: order-sentinel.json
+#            ruleType: flow
+  profiles:
+    active: dev
