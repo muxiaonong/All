@@ -7,13 +7,13 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
+    sentinel:
+      transport:
+        #配置Sentinel dashboard地址
+        dashboard: localhost:8080
+        #默认8719端口，假如被占用会自动从8719开始依次+1扫描,直至找到未被占用的端口
+        port: 8719
 
-#设置feign客户端超时时间(OpenFeign默认支持ribbon)
-ribbon:
-  #指的是建立连接所用的时间，适用于网络状况正常的情况下,两端连接所用的时间
-  ReadTimeout: 5000
-  #指的是建立连接后从服务器读取到可用资源所用的时间
-  ConnectTimeout: 5000
 
 logging:
   level:
@@ -25,3 +25,10 @@ management:
     web:
       exposure:
         include: '*'
+
+
+# 激活Sentinel对OpenFeign的支持
+feign:
+  sentinel:
+    enabled: true
+

@@ -1,7 +1,6 @@
 package com.muxianong.cloudalibabaprovider9003.controller;
 
 import com.muxiaonong.result.Response;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -36,12 +35,11 @@ public class GoodsController {
     public String readTimeOut() {
         try {
             System.out.println(serverPort+"网络连接超时，延迟响应");
-            TimeUnit.SECONDS.sleep(3);
+            TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         return serverPort;
     }
-
 
 }

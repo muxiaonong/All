@@ -39,7 +39,7 @@ public class DemoController {
         return restTemplate.getForObject(serverURL+"/muxiaonong",String.class);
     }
 
-    @GetMapping("/consumer/fallback/{id}")
+    @GetMapping("/consumer/goods/{id}")
     //添加SentinelResource注解的fallback属性，同时设置方法来解决Java异常
     @SentinelResource(value = "falllback",fallback = "fallbackHandler",blockHandler = "blockHandler",
             exceptionsToIgnore = {NullPointerException.class})//被标注的异常将会被 原样抛出

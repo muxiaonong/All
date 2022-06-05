@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class FeignServiceImpl implements FeignService {
 
-
     @Override
     public Response<String> queryGoods(Long id) {
         return new Response<>(501,"服务降级处理",null);

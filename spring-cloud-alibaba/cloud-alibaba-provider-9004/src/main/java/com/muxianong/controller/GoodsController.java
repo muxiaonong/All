@@ -34,7 +34,7 @@ public class GoodsController {
     public String readTimeOut() {
         try {
             System.out.println(serverPort+"网络连接超时，延迟响应");
-            TimeUnit.SECONDS.sleep(3);
+            TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

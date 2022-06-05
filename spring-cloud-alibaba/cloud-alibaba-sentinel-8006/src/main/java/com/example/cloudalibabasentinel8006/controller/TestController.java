@@ -100,7 +100,7 @@ public class TestController {
     @GetMapping("/buildExption")
     @SentinelResource(value = "buildExption",
             blockHandlerClass = SentinelExptioinHandler.class,
-            blockHandler = "handlerMethodError")
+            blockHandler = "handlerMethodNetwork")
     public String buildExption(){
         return "hello buildExption";
     }

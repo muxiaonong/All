@@ -3,7 +3,7 @@ package com.example.cloudalibabasentinel8006.controller.handler;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 
 /**
- * 用来处理Sentinel限流自定义逻辑
+ * 处理Sentinel限流自定义逻辑
  */
 public class SentinelExptioinHandler {
     public static String handlerMethodError(BlockException exception){
