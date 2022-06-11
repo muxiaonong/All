@@ -1,0 +1,20 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: cloud-gateway-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: false #开启注册中心路由功能
+      routes:  # 路由
+        - id: nacos-provider #路由ID，没有固定要求，但是要保证唯一，建议配合服务名
+          uri: lb://nacos-provider
+          predicates: # 断言
+            - Path=/mxn/** # 匹配对应地址
+          filters:
+            - StripPrefix=1 # 去掉地址中的第一部分

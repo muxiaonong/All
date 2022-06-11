@@ -1,12 +1,14 @@
 server:
   port: 9001
+#  servlet:
+#    context-path: /nacos-provider # 如果你需要演示 GateWay filter 将这个放开
 spring:
   application:
     name: nacos-provider
   cloud:
     discovery:
-      server-addr: http://192.168.137.152:81
-#      server-addr: localhost:8848
+#      server-addr: http://192.168.137.152:81
+      server-addr: localhost:8848
 
 management:
   endpoint:

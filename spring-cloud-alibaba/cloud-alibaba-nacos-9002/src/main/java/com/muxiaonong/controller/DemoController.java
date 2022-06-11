@@ -2,6 +2,7 @@ package com.muxiaonong.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -13,17 +14,27 @@ import org.springframework.web.bind.annotation.RestController;
  * @Version 1.0
  **/
 @RestController
+@RequestMapping("/mxn")
 public class DemoController {
 
 
     @Value("${server.port}")
     private String serverPort;
 
-    @GetMapping(value = "/muxiaonong")
+    @RequestMapping(value = "/muxiaonong")
     public String getServerPort(){
             return "hello Nacos Discovery"+serverPort;
     }
 
+    @RequestMapping(value = "/hello")
+    public String hello(){
+        return "hello world ，my port is ："+serverPort;
+    }
 
+
+    @GetMapping(value = "/order")
+    public String order(){
+        return "我是代码网关 - 编号 order "+serverPort;
+    }
 
 }
