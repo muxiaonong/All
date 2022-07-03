@@ -66,6 +66,8 @@
          <module>cloud-alibaba-openFeign-8009</module>
          <module>cloud-alibaba-sentinel-persistence-8087</module>
          <module>cloud-alibaba-sentinel-8006</module>
+         <module>cloud-alibaba-seata-order</module>
+         <module>cloud-alibaba-seata-stock</module>
      </modules>
 
 </project>
