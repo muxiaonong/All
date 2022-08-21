@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-sentinel-8006/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-provider-9003/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-provider-9004/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-consumer-8084/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-openFeign-8009/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-sentinel-persistence-8087/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-gateway/cloud-alibaba-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-seata-order/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-seata-stock/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-gateway-9006/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq_demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="SwUserDefinedSpecifications">
+    <option name="specTypeByUrl">
+      <map />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/All.iml" filepath="$PROJECT_DIR$/.idea/All.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibab-consumer-8083/cloud-alibab-consumer-8083.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibab-consumer-8083/cloud-alibab-consumer-8083.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-commons/cloud-alibaba-commons.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-commons/cloud-alibaba-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-config-3377/cloud-alibaba-config-3377.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-config-3377/cloud-alibaba-config-3377.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-consumer-8084/cloud-alibaba-consumer-8084.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-consumer-8084/cloud-alibaba-consumer-8084.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-gateway-9006/cloud-alibaba-gateway-9006.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-gateway-9006/cloud-alibaba-gateway-9006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-nacos-9001/cloud-alibaba-nacos-9001.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-nacos-9001/cloud-alibaba-nacos-9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-nacos-9002/cloud-alibaba-nacos-9002.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-nacos-9002/cloud-alibaba-nacos-9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-openFeign-8009/cloud-alibaba-openFeign-8009.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-openFeign-8009/cloud-alibaba-openFeign-8009.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-provider-9003/cloud-alibaba-provider-9003.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-provider-9003/cloud-alibaba-provider-9003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-provider-9004/cloud-alibaba-provider-9004.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-provider-9004/cloud-alibaba-provider-9004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-seata-order/cloud-alibaba-seata-order.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-seata-order/cloud-alibaba-seata-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-seata-stock/cloud-alibaba-seata-stock.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-seata-stock/cloud-alibaba-seata-stock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-sentinel-8006/cloud-alibaba-sentinel-8006.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-sentinel-8006/cloud-alibaba-sentinel-8006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-sentinel-8601/cloud-alibaba-sentinel-8601.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-sentinel-8601/cloud-alibaba-sentinel-8601.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-sentinel-persistence-8087/cloud-alibaba-sentinel-persistence-8087.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/cloud-alibaba-sentinel-persistence-8087/cloud-alibaba-sentinel-persistence-8087.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq_demo/rocketmq_demo.iml" filepath="$PROJECT_DIR$/rocketmq_demo/rocketmq_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-alibaba-openFeign-8009" />
+        <module name="cloud-alibaba-seata-order" />
+        <module name="cloud-alibaba-commons" />
+        <module name="rocketmq_demo" />
+        <module name="cloud-alibaba-gateway-9006" />
+        <module name="cloud-alibaba-provider-9004" />
+        <module name="cloud-alibaba-provider-9003" />
+        <module name="cloud-alibaba-consumer-8084" />
+        <module name="cloud-alibaba-seata-stock" />
+        <module name="cloud-alibab-consumer-8083" />
+        <module name="cloud-alibaba-sentinel-persistence-8087" />
+        <module name="cloud-alibaba-nacos-9001" />
+        <module name="cloud-alibaba-config-3377" />
+        <module name="cloud-alibaba-nacos-9002" />
+        <module name="cloud-alibaba-sentinel-8006" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-alibab-consumer-8083" target="1.8" />
+      <module name="cloud-alibaba-commons" target="1.8" />
+      <module name="cloud-alibaba-config-3377" target="1.8" />
+      <module name="cloud-alibaba-consumer-8007" target="1.8" />
+      <module name="cloud-alibaba-consumer-8084" target="1.8" />
+      <module name="cloud-alibaba-gateway" target="1.8" />
+      <module name="cloud-alibaba-gateway-9005" target="1.8" />
+      <module name="cloud-alibaba-gateway-9006" target="1.8" />
+      <module name="cloud-alibaba-nacos-9001" target="1.8" />
+      <module name="cloud-alibaba-nacos-9002" target="1.8" />
+      <module name="cloud-alibaba-openfeign-8007" target="1.8" />
+      <module name="cloud-alibaba-openFeign-8007" target="1.8" />
+      <module name="cloud-alibaba-openFeign-8009" target="1.8" />
+      <module name="cloud-alibaba-openFeign-consumer-8007" target="1.8" />
+      <module name="cloud-alibaba-provider-9003" target="1.8" />
+      <module name="cloud-alibaba-provider-9004" target="1.8" />
+      <module name="cloud-alibaba-seata-order" target="1.8" />
+      <module name="cloud-alibaba-seata-stock" target="1.8" />
+      <module name="cloud-alibaba-sentinel-8006" target="1.8" />
+      <module name="cloud-alibaba-sentinel-persistence-8087" target="1.8" />
+      <module name="cloudalibaba-provider-9003" target="1.8" />
+      <module name="cloudalibaba-provider-9004" target="1.8" />
+      <module name="rocketmq_demo" target="1.8" />
+      <module name="spring-cloud-alibaba" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-alibab-consumer-8083" options="-parameters" />
+      <module name="cloud-alibaba-commons" options="-parameters" />
+      <module name="cloud-alibaba-config-3377" options="-parameters" />
+      <module name="cloud-alibaba-consumer-8007" options="-parameters" />
+      <module name="cloud-alibaba-consumer-8084" options="-parameters" />
+      <module name="cloud-alibaba-gateway" options="-parameters" />
+      <module name="cloud-alibaba-gateway-9005" options="-parameters" />
+      <module name="cloud-alibaba-gateway-9006" options="-parameters" />
+      <module name="cloud-alibaba-nacos-9001" options="-parameters" />
+      <module name="cloud-alibaba-nacos-9002" options="-parameters" />
+      <module name="cloud-alibaba-openFeign-8009" options="-parameters" />
+      <module name="cloud-alibaba-openFeign-consumer-8007" options="-parameters" />
+      <module name="cloud-alibaba-openfeign-8007" options="-parameters" />
+      <module name="cloud-alibaba-provider-9003" options="-parameters" />
+      <module name="cloud-alibaba-provider-9004" options="-parameters" />
+      <module name="cloud-alibaba-seata-order" options="-parameters" />
+      <module name="cloud-alibaba-seata-stock" options="-parameters" />
+      <module name="cloud-alibaba-sentinel-8006" options="-parameters" />
+      <module name="cloud-alibaba-sentinel-persistence-8087" options="-parameters" />
+      <module name="cloudalibaba-provider-9003" options="-parameters" />
+      <module name="cloudalibaba-provider-9004" options="-parameters" />
+      <module name="rocketmq_demo" options="-parameters" />
+      <module name="spring-cloud-alibaba" options="-parameters" />
+    </option>
+  </component>
+</project>

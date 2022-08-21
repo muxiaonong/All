@@ -62,6 +62,7 @@
          <module>cloud-alibaba-sentinel-8006</module>
          <module>cloud-alibaba-commons</module>
          <module>cloud-alibaba-provider-9003</module>
+         <module>cloud-alibaba-gateway-9006</module>
          <module>cloud-alibaba-provider-9004</module>
          <module>cloud-alibaba-openFeign-8009</module>
          <module>cloud-alibaba-sentinel-persistence-8087</module>
